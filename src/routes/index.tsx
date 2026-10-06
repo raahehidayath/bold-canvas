@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
 import projectChrome from "../assets/project-chrome.jpg";
 import projectGlass from "../assets/project-glass.jpg";
+import projectGlassMale from "../assets/project-glass-male.jpg";
 import projectStatic from "../assets/project-static.jpg";
 
 export const Route = createFileRoute("/")({
@@ -57,7 +58,7 @@ function Portfolio() {
     <main className="portfolio-shell">
       <section className="opening-film" aria-label="Wahab Farhan portfolio introduction">
         <div className="film-stage" aria-hidden="true">
-          <img src={projectGlass} alt="" className="film-image" width={1440} height={1088} />
+          <img src={projectGlassMale} alt="" className="film-image" width={1440} height={1088} />
           <div className="film-shutter film-shutter-one" />
           <div className="film-shutter film-shutter-two" />
           <div className="film-beam" />
