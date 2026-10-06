@@ -8,3 +8,8 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Project rules
+
+- Keep the portfolio as a one-page editorial experience; the uninterrupted cinematic flow is the core concept.
+- Use semantic global design tokens for all visual styling so the brutalist palette and typography stay consistent.
